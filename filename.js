@@ -76,10 +76,10 @@ function submitFunction(){
         let parent1 = document.getElementById('main-div');
         parent1.parentNode.removeChild(parent1)}
 
-    else if (document.getElementById("btn3").style.backgroundColor === "black") {
+    else if (document.getElementById("btn5").style.backgroundColor === "black") {
 
         document.getElementById("next-div").style.visibility="visible";
-        document.getElementById("button-text").textContent= 'You selected 3 out of 5'
+        document.getElementById("button-text").textContent= 'You selected 5 out of 5'
             
         let parent1 = document.getElementById('main-div');
         parent1.parentNode.removeChild(parent1)}
